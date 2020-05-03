@@ -10,9 +10,10 @@ export const Container = styled.div`
       flex-direction: column;
       align-items: center;
       text-decoration: none;
+      font-family: 'Roboto';
       color: #7159c1;
       margin-top: 10px;
-      font-size: 10px;
+      font-size: 13px;
       
       transition: 0.4s color;
       
