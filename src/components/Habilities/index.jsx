@@ -23,28 +23,28 @@ const Habilities = () => {
           <div className="grid-item react" onclick="">
             <FaReact size={55} />
           </div>
-          <div className="grid-item reactNative">
+          <div className="grid-item reactNative" onclick="">
             <FaReact size={55} />
           </div>
-          <div className="grid-item node">
+          <div className="grid-item node" onclick="">
             <FaNodeJs size={55} />
           </div>
-          <div className="grid-item Html5">
+          <div className="grid-item Html5" onclick="">
             <FaHtml5 size={55} />
           </div>
-          <div className="grid-item css">
+          <div className="grid-item css" onclick="">
             <FaCss3 size={55} />
           </div>
-          <div className="grid-item Git">
+          <div className="grid-item Git" onclick="">
             <FaGitAlt size={55} />
           </div>
-          <div className="grid-item Gitlab">
+          <div className="grid-item Gitlab" onclick="">
             <FaGitlab size={55} />
           </div>
-          <div className="grid-item docker">
+          <div className="grid-item docker" onclick="">
             <FaDocker size={55} />
           </div>
-          <div className="grid-item Python">
+          <div className="grid-item Python" onclick="">
             <FaPython size={55} />
           </div>
         </div>
