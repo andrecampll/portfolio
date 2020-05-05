@@ -20,7 +20,7 @@ const Habilities = () => {
 
         <h3>SKILLS</h3>
         <div className="grid-container" >
-          <div className="grid-item react">
+          <div className="grid-item react" onclick="">
             <FaReact size={55} />
           </div>
           <div className="grid-item reactNative">
