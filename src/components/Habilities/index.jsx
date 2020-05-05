@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import useMeasure from '../../hooks/useMeasure';
+import { FaReact, FaNodeJs, FaHtml5, FaCss3, FaGitAlt, FaGitlab, FaDocker, FaPython } from 'react-icons/fa';
 
 import { Container } from './styles';
 import { useSpring, animated } from 'react-spring';
@@ -18,8 +19,37 @@ const Habilities = () => {
         </div> */}
 
         <h3>SKILLS</h3>
-        <ul>
-          <strong >React</strong>
+        <div className="grid-container" >
+          <div className="grid-item react">
+            <FaReact size={55} />
+          </div>
+          <div className="grid-item reactNative">
+            <FaReact size={55} />
+          </div>
+          <div className="grid-item node">
+            <FaNodeJs size={55} />
+          </div>
+          <div className="grid-item Html5">
+            <FaHtml5 size={55} />
+          </div>
+          <div className="grid-item css">
+            <FaCss3 size={55} />
+          </div>
+          <div className="grid-item Git">
+            <FaGitAlt size={55} />
+          </div>
+          <div className="grid-item Gitlab">
+            <FaGitlab size={55} />
+          </div>
+          <div className="grid-item docker">
+            <FaDocker size={55} />
+          </div>
+          <div className="grid-item Python">
+            <FaPython size={55} />
+          </div>
+        </div>
+        {/* <ul> */}
+          {/* <strong>React</strong>
           <li>
             <div>
               <div id="React"></div>
@@ -53,7 +83,7 @@ const Habilities = () => {
               <div id="CSS" ></div>
             </div>
           </li>
-        </ul>
+        </ul> */}
       </Container>
     </>
   );
